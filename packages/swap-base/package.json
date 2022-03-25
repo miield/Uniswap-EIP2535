@@ -44,7 +44,7 @@
     "decimal.js": "^10.2.1",
     "ethereum-waffle": "^3.0.2",
     "ethers": "^5.0.8",
-    "hardhat": "^2.2.0",
+    "hardhat": "^2.9.2",
     "is-svg": "^4.3.1",
     "mocha": "^6.2.2",
     "mocha-chai-jest-snapshot": "^1.1.0",
@@ -58,7 +58,6 @@
   },
   "dependencies": {
     "@nahmii/hardhat-nvm": "^0.2.3",
-    
     "base64-sol": "1.0.1",
     "dotenv": "^10.0.0",
     "hardhat-gas-reporter": "^1.0.6",

@@ -34,7 +34,7 @@ const config: HardhatUserConfig = {
     }
   },
   networks: {
-     nahmii: {
+    nahmii: {
       url: process.env.L2_URL || 'https://l2.testnet.nahmii.io',
       accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
       gasPrice: 15000000,
