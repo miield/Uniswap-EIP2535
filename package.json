@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "hardhat": "^2.8.2",
+    "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "solc": "^0.8.11"
+  }
+}
