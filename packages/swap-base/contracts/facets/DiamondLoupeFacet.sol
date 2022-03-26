@@ -1,10 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity =0.7.6;
 pragma experimental ABIEncoderV2;
-/******************************************************************************\
-* Author: Nick Mudge <nick@perfectabstractions.com> (https://twitter.com/mudgen)
-* EIP-2535 Diamonds: https://eips.ethereum.org/EIPS/eip-2535
-/******************************************************************************/
 
 import { LibDiamond } from  "../libraries/LibDiamond.sol";
 import { IDiamondLoupe } from "../interfaces/IDiamondLoupe.sol";
@@ -19,7 +15,6 @@ contract DiamondLoupeFacet is IDiamondLoupe, IERC165 {
     //     address facetAddress;
     //     bytes4[] functionSelectors;
     // }
-
     /// @notice Gets all facets and their selectors.
     /// @return facets_ Facet
     function facets() external override view returns (Facet[] memory facets_) {

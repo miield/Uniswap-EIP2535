@@ -20,7 +20,7 @@ async function main() {
   await swapiiFactory.deployed();
 
   console.log("SwapiiFactory deployed to:", swapiiFactory.address);
-}
+} 
 
 // We recommend this pattern to be able to use async/await everywhere
 // and properly handle errors.
