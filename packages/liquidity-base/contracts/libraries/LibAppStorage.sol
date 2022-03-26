@@ -95,8 +95,8 @@ library LibAppStorage {
   }
 }
 
-contract check{
-AppStorage s;
+library check{
+AppStorage internal s;
 function getVars() internal pure returns(address a,address b,address c,uint24 d,int24 e){
 a=s.variables.factory;
 b=s.variables.token0;
