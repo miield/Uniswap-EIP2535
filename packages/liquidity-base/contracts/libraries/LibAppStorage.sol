@@ -95,5 +95,17 @@ library LibAppStorage {
   }
 }
 
+library check{
+AppStorage internal s;
+function getVars() internal pure returns(address a,address b,address c,uint24 d,int24 e){
+a=s.variables.factory;
+b=s.variables.token0;
+c=s.variables.token1;
+d=s.variables.fee;
+e= s.variables.markSpacing
+}
+
+}
+
 // uint256 private amountInCached = DEFAULT_AMOUNT_IN_CACHED;
 // AppStorage storage s = LibAppStorage.diamondStorage();
